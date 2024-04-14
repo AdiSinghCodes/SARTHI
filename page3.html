@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://wallpapers.com/images/hd/products-1920-x-1080-background-b66wd4ac6or0jp21.jpg");
+        }
+        li{
+            font-size: 45px;
+            text-align: center;
+            
+        }
+        form{
+            text-align: center;
+            font-size: 25px;
+        }
+
+        select{
+            font-size: 25px;
+        }
+        input[type="text"] {
+            font-size: 20px; /* Adjust the font size as needed */
+            padding: 8px; /* Adjust the padding as needed */
+            width: 100%; /* Make the input field full-width */
+        }
+        h3 {
+            border: solid;
+            height: 60px;
+            width: 140px;
+            font-size: 40px;
+            margin: 0 auto; /* Center the border horizontally */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <li>Select your Stream</li>
+    <br><br>
+    <form action="/action.adi">
+
+        <input type="radio" value="Commerce" name="class">Commerce
+        
+        <input type="radio" value="Science" name="class">Science
+        
+        <input type="radio" value="Arts" name="class">Arts
+    </form>
+    <br>
+    <hr>
+    <br>
+    <li>Specify College</li>
+    <br><br>
+    <form action="/action.adi">
+
+        <input type="radio" value="Engineering" name="class">Engineering
+        
+        <input type="radio" value="Medical" name="class">Medical
+        
+        <input type="radio" value="Others" name="class">Others
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form>
+    <li>Select Country</li>
+    <br>
+    <select player="country">
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="China">China</option>
+        <option value="England">England</option>
+        <option value="Australia">Australia</option>
+        <option value="Newzealand">Newzealand</option>
+    </select>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form>
+        <li>Select State</li>
+        <br>
+        <select player="state">
+            <option value="Gujrat">Gujrat</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Bihar">Bihar</option>
+        </select>
+        </form>
+        <br>
+        <hr>
+        <br>
+        <form>
+            <li>Select City</li>
+            <br>
+            <select player="city">
+                <option value="Kalyan">Kalyan</option>
+                <option value="Thane">Thane</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Wadala">Wadala</option>
+                <option value="Aurangabad">Aurangabad</option>
+            </select>
+            </form>
+            <br>
+    <hr>
+    <br>
+    <li>Specify College (Enter at least 3 college names separated by commas)</li>
+    <br><br>
+    <form action="/action.adi">
+        <input type="text" name="colleges" placeholder="Enter college names">
+    </form>
+    <br>
+    <br>
+    <h3><a href="page4.html">Search</a></h3>
+</body>
+</html>
